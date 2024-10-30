@@ -47,7 +47,8 @@ cd Project__portifolio__1.0
 
 <h2>📸 Prévia do Projeto</h2>
 
-![Project portifolio 1 0](https://github.com/user-attachments/assets/dec534e6-0daa-4cdd-a64e-62cad8d5cf14)
+
+![Project portifolio 1 0](https://github.com/user-attachments/assets/7aab20e7-233f-43ac-ac1f-0e7b42ebc1bf)
 
 
 <h2>✨ Contato</h2>
