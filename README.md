@@ -32,7 +32,7 @@
 
 <h2>🔗 Como Visualizar</h2>
 
-<p>Para visualizar o projeto, basta clonar este repositório e abrir o arquivo <code>apresentacao.html</code> em seu navegador.</p>
+<p>Para visualizar o projeto, basta clonar este repositório e abrir o arquivo <code>Apresentacao.html</code> em seu navegador.</p>
 
 <pre>
 # Clonar o repositório
