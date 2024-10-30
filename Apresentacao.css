@@ -1,0 +1,129 @@
+/* Importa as fontes da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Define que todos os elementos terão padding e margem zerados, removendo espaçamentos padrões */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* Define a altura do body como 100% da altura da viewport, ocupando toda a tela */
+    height: 100vh;
+
+    /* Impede a rolagem da página */
+    overflow: hidden; 
+    
+    /* Define o box-sizing como border-box para incluir padding e border no cálculo de width e height */
+    box-sizing: border-box;
+
+    /* Define a cor de fundo da página como preto */
+    background-color: black;
+
+    /* Define a cor padrão do texto como branco */
+    color: white;
+}
+
+strong {
+    /* Define a cor do texto em negrito como um tom de azul */
+    color: #22D4FD;
+}
+
+img {
+    /* Define a largura da imagem como 488px e a altura ajustada proporcionalmente */
+    width: 488px;
+    height: auto;
+
+    /* Define bordas arredondadas para a imagem, criando um efeito circular */
+    border-radius: 45%;
+}
+
+.apresentacao {
+    /* Adiciona margem de 10% ao redor do elemento */
+    margin: 10%;
+
+    /* Define o elemento como um contêiner flex para organizar itens em linha */
+    display: flex;
+
+    /* Alinha os itens no eixo transversal (vertical) ao centro do contêiner */
+    align-items: center;
+
+    /* Distribui o espaço livre entre os itens ao longo do eixo principal (horizontal) */
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    /* Define a largura do conteúdo como 615px */
+    width: 615px;
+
+    /* Cria um contêiner flex para organizar itens em coluna */
+    display: flex;
+
+    /* Alinha os itens em coluna */
+    flex-direction: column;
+
+    /* Define um espaçamento de 40px entre os itens dentro do contêiner */
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    /* Aplica a fonte "Krona One" para o título */
+    font-family: "Krona One", sans-serif;
+
+    /* Define o tamanho da fonte como 36px */
+    font-size: 36px;
+
+    /* Justifica o texto, alinhando-o uniformemente entre as margens */
+    text-align: justify;
+}
+
+.apresentacao__conteudo__texto {
+    /* Aplica a fonte "Montserrat" para o texto */
+    font-family: "Montserrat", sans-serif;
+
+    /* Define o tamanho da fonte como 24px */
+    font-size: 24px;
+
+    /* Justifica o texto, alinhando-o uniformemente entre as margens */
+    text-align: justify;
+}
+
+.apresentacao__links {
+    /* Define o elemento como um contêiner flex para organizar os links em linha */
+    display: flex;
+
+    /* Distribui o espaço livre ao redor dos itens, espaçando-os igualmente */
+    justify-content: space-around;
+}
+
+.apresentacao__links__button {
+    /* Define a cor de fundo do botão como azul */
+    background-color: #22D4FD;
+
+    /* Define a largura do botão como 280px */
+    width: 280px;
+
+    /* Adiciona cantos arredondados ao botão */
+    border-radius: 16px;
+
+    /* Adiciona padding vertical de 21.5px e horizontal zero para espaçamento interno */
+    padding: 21.5px 0;
+
+    /* Remove a decoração de link padrão (sublinhado) */
+    text-decoration: none;
+
+    /* Define a cor do texto como preto */
+    color: black;
+
+    /* Aplica a fonte "Montserrat" para o texto do botão */
+    font-family: "Montserrat", sans-serif;
+
+    /* Define o tamanho da fonte como 24px */
+    font-size: 24px;
+
+    /* Define o peso da fonte como 600 para deixar o texto em negrito */
+    font-weight: 600;
+
+    /* Centraliza o texto horizontalmente dentro do botão */
+    text-align: center;
+}
